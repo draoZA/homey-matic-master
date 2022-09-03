@@ -160,7 +160,27 @@ The app uses discovery to find your CCUs on the network. We were only able to te
 Thank you [@hobbyquaker](https://github.com/hobbyquaker) for your great work on binrpc, xmlrpc, hm-discover and RedMatic.
 This app was build by [@twendt](https://github.com/twendt). Great job. Thanks!
 
-All code from [previous repository](https://github.com/twendt/homey-matic). So all credits should go to that team. Unfortunately @twendt stopped active development. There was a pull request that hadn't been actioned after 6 month. So I've decided to clone the repository and continue development here. Main goal to add a device or two that haven been recently added to the Homematic family but not to this app yet.
+All code from [previous repository](https://github.com/twendt/homey-matic). So all credits should go to that team. Unfortunately @twendt stopped active development. There was a pull request that hadn't been actioned after 6 month. So I've decided to clone the repository and continue development here. Main goal to add a device or two that haven been recently added to the Homematic family but not to this app yet. Unfortunately I won't be able to continue full development and/or support. Anybody who wantsto contribute is welcome. If anybody wants to take over active development and host the repository, let me know.
+
+# HOWTO
+
+To use this app version you will need to install it via [developer access](https://apps.developer.homey.app/) to your homey. No worries, easier than it sounds :-) It will overwrite your existing Homematic app (backup before!) and keep all existing devices. Once installed the new device types are available to add. 
+
+Everything on your own risk. So backup before! I won't be able to provide support.
+
+1) Download Code: Select "CODE" here and get ZIP file
+2) Enzip package on your local PC
+3) Optional: Install Visual Studio Code (free)
+4) Follow steps from[ Homey Dev Guide](https://apps.developer.homey.app/the-basics/getting-started)
+  - Install Node
+  - >>> Go to your unzipped files in command line/terminal window. Make sure you are in the homey-matic-master folder!
+  - Install Homey CLI: npm install --global --no-optional homey
+  - Skip the create app - as you already have one
+  - Run the App to have it build and see if all connects: homey app run
+  - If all looks good cancel run with CTRL-C
+  - Install the App: homey app install
+
+For questions post in the [Homematic App Forum @ Homey](https://community.homey.app/t/app-pro-homematic-app-v1-0-0-beta/1057).
 
 # Change Log
 
