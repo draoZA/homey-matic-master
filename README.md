@@ -158,8 +158,9 @@ The app uses discovery to find your CCUs on the network. We were only able to te
 # Credits
 
 Thank you [@hobbyquaker](https://github.com/hobbyquaker) for your great work on binrpc, xmlrpc, hm-discover and RedMatic.
-This app was build by Time Wendt. Great job. Thanks!
-Changes done by Lars
+This app was build by [@twendt](https://github.com/twendt). Great job. Thanks!
+
+All code from [previous repository](https://github.com/twendt/homey-matic). So all credits should go to that team. Unfortunately @twendt stopped active development. There was a pull request that hadn't been actioned after 6 month. So I've decided to clone the repository and continue development here. Main goal to add a device or two that haven been recently added to the Homematic family but not to this app yet.
 
 # Change Log
 
