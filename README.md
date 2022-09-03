@@ -171,9 +171,10 @@ Everything on your own risk. So backup before! I won't be able to provide suppor
 1) Download Code: Select "CODE" here and get ZIP file
 2) Enzip package on your local PC
 3) Optional: Install Visual Studio Code (free)
-4) Follow steps from[ Homey Dev Guide](https://apps.developer.homey.app/the-basics/getting-started)
+4) Follow steps from[ Homey Dev Guide](https://apps.developer.homey.app/the-basics/getting-started):
+
   - Install Node
-  - >>> Go to your unzipped files in command line/terminal window. Make sure you are in the homey-matic-master folder!
+  - Go to your unzipped files in command line/terminal window. Make sure you are in the homey-matic-master folder!
   - Install Homey CLI: npm install --global --no-optional homey
   - Skip the create app - as you already have one
   - Run the App to have it build and see if all connects: homey app run
