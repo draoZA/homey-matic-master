@@ -1,0 +1,20 @@
+{
+  "0.17.1": {
+    "en": "Fix temperature value type of HM-WDS10-TH-O and HM-WDS100-C6-O"
+  },
+  "0.17.0": {
+    "en": "This release adds many devices. Add some info about devices in advanced settings."
+  },
+  "0.18.0": {
+    "en": "Add more devices"
+  },
+  "0.18.1": {
+    "en": "Fix HmIP-BSM"
+  },
+  "0.19.0": {
+    "en": "Added new devices, deactivate setOnDim option for HmIP-BDT, sdk 3"
+  },
+  "0.19.1": {
+    "en": "Fix errors in HmIP-BDT and HmIP-FDT and fix api."
+  }
+}

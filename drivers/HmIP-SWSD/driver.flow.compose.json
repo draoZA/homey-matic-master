@@ -1,0 +1,46 @@
+{
+    "triggers": [
+        {
+            "id": "HmIP-SWSD-changed",
+            "title": {
+                "en": "Alarm state changed"
+            },
+            "titleFormatted": {
+                "en": "Alarm state changed: [[state]]"
+            },
+            "args": [
+                {
+                    "name": "state",
+                    "title": "State",
+                    "type": "dropdown",
+                    "values": [
+                        {
+                            "id": "0",
+                            "label": {
+                                "en": "Off"
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "label": {
+                                "en": "Primary"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "label": {
+                                "en": "Intrusion"
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "label": {
+                                "en": "Secondary"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

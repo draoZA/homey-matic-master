@@ -1,0 +1,41 @@
+{
+    "triggers": [
+        {
+            "id": "HmIP-SRH-changed",
+            "title": {
+                "en": "Handle state changed"
+            },
+            "titleFormatted": {
+                "en": "Handle state changed: [[state]]"
+            },
+
+            "args": [
+                {
+                    "name": "state",
+                    "title": "State",
+                    "type": "dropdown",
+                    "values": [
+                        {
+                            "id": "0",
+                            "label": {
+                                "en": "CLOSED"
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "label": {
+                                "en": "TILTED"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "label": {
+                                "en": "OPEN"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "actions": [
+        {
+            "id": "HmIP-eTRV-2-thermostat_set_weekprofile",
+            "title": {
+                "en": "Set Week Profile"
+            },
+            "titleFormatted": {
+                "en": "Set Week Profile: [[weekprofile]]"
+            },
+            "args": [
+                {
+                    "name": "weekprofile",
+                    "title": "Week Profile",
+                    "type": "dropdown",
+                    "values": [
+                        {
+                            "id": "1",
+                            "label": {
+                                "en": "1"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "label": {
+                                "en": "2"
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "label": {
+                                "en": "3"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "HmIP-eTRV-2-thermostat_set_mode",
+            "title": {
+                "en": "Set Mode"
+            },
+            "titleFormatted": {
+                "en": "Set Mode: [[mode]]"
+            },
+            "args": [
+                {
+                    "name": "mode",
+                    "title": "Mode",
+                    "type": "dropdown",
+                    "values": [
+                        {
+                            "id": "0",
+                            "label": {
+                                "en": "Auto"
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "label": {
+                                "en": "Manu"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
